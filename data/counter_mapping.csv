@@ -1,0 +1,16 @@
+unified_name,vendor,vendor_counter,description
+vonr_setup_att,Samsung,SS_VoNR_ERABSetupAtt_5QI1,5QI=1 voice bearer setup attempts
+vonr_setup_att,Ericsson,pmVoNrBearerSetupAtt5qi1,5QI=1 voice bearer setup attempts
+vonr_setup_att,Nokia,VONR_SESSION_SETUP_ATT,Native 5G voice session setup attempts
+vonr_setup_fail,Samsung,SS_VoNR_ERABSetupFail_5QI1,Failed 5QI=1 setups
+vonr_setup_fail,Ericsson,pmVoNrBearerSetupFail5qi1,Failed 5QI=1 setups
+vonr_setup_fail,Nokia,VONR_SESSION_SETUP_FAIL,Failed voice session setups
+vonr_media_evidence,Samsung,SS_VoNR_DLDataVol_5QI1_MB,Downlink voice payload on 5QI=1 (MB)
+vonr_media_evidence,Ericsson,pmVoNrBearerActive5qi1,5QI=1 calls in active conversational state
+vonr_media_evidence,Nokia,VONR_RTP_PKT_RECEIVED,RTP voice packets received over 5G
+ims_signaling,Ericsson,pmImsBearerSetupAtt5qi5,5QI=5 IMS signaling bearer setups
+ims_signaling,Nokia,VONR_SIP_DIALOG_SETUPS,IMS SIP dialog setups on 5G SA
+vonr_drops,Ericsson,pmVoNrBearerDrop5qi1,Dropped 5QI=1 calls
+peak_vonr_ue,Ericsson,pmVoNrPeakUe5qi1,Peak concurrent VoNR users
+radio_quality,Samsung,SS_VoNR_AvgCQI_5QI1,Average CQI reported by 5QI=1 UEs
+media_gap,Nokia,VONR_RTP_END_GAP_COUNT,Calls where 5G RTP stopped abruptly at end of call
